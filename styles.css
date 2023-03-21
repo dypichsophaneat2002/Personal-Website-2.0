@@ -13,12 +13,24 @@ p {
 .logo{
     width: 80px;
 }
+
 .black-btn {
     background-color:white;
     border: solid 2px black;
-    border-radius: 0.6rem;
-    height: 2.5rem;
-    width: 7rem;
+    border-radius: 0.3rem;
+    height: 1.9rem;
+    width: 6.5rem;
+    font-size: 0.8rem;
+}
+@media screen and (min-width: 500px) {
+    .black-btn {
+        background-color:white;
+        border: solid 2px black;
+        border-radius: 0.6rem;
+        height: 2.5rem;
+        width: 7rem;
+        font-size: 1rem;
+    }
 }
 .black-btn:hover, .detail-btn:hover, .contact-btn:hover {
     border: solid 2px #0060D1;
@@ -164,9 +176,18 @@ p {
     border: solid 2px white;
     background-color: black;
     color: white;
-    border-radius: 0.6rem;
-    height: 2.5rem;
-    width: 7rem;
+    border-radius: 0.3rem;
+    height: 1.9rem;
+    width: 6.5rem;
+    font-size: 0.8rem;
+}
+@media screen and (min-width: 500px) {
+    .darkMode-btn {
+        border-radius: 0.6rem;
+        height: 2.5rem;
+        width: 7rem;
+        font-size: 1rem;
+    }
 }
 .yellow {
     color: #F7CD3C;
