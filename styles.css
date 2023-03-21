@@ -1,0 +1,177 @@
+p {
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 1200px) {
+    p {
+        font-size: 16px;
+    }
+}
+/* Header */
+.logo{
+    width: 80px;
+}
+.black-btn {
+    background-color:white;
+    border: solid 2px black;
+    border-radius: 0.6rem;
+    height: 2.5rem;
+    width: 7rem;
+}
+.black-btn:hover, .detail-btn:hover, .contact-btn:hover {
+    border: solid 2px #0060D1;
+    color:#0060D1;
+    transition: border 0.6s;
+    transition: border 0.6s;
+}
+.header-content {
+    width: 95%;
+    margin: 0 auto;
+}
+/* Font */
+.less-bold {
+    font-weight: 550;
+}
+.bold {
+    font-weight: 600;
+}
+.blue {
+    color:#0060D1;
+}
+.section-title {
+    font-size: 1.1rem;
+}
+@media screen and (min-width: 576px ) {
+    .section-title {
+        font-size: 1.25rem;
+    }
+}
+/* Main */
+.main-section {
+    width: 90%;
+    margin: 0 auto;
+}
+@media screen and (min-width: 550px){
+    .main-section{
+        width: 85%;
+    }
+
+}
+@media screen and (min-width: 768px) {
+    .main-section{
+        width: 75%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .main-section{
+        width: 50%;
+    }
+}
+@media screen and (min-width: 2000px){
+    .main-section{
+        width: 40%;
+    }
+}
+.welcome-icon {
+    width: 45px;
+}
+.title {
+    font-size: 1.5rem;
+}
+.section {
+    margin-top: 2rem;
+}
+@media screen and (min-width: 768px) {
+    .section {
+        margin-top: 3rem;
+    }
+}
+/* Skill section */
+.skill-item {
+    border: solid 1px black;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.7rem;
+    margin-right: 0.5rem;
+}
+.skill-item-dark {
+    border: solid 1px white;
+    background-color: black;
+    color:white;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.7rem;
+    margin-right: 0.5rem;
+}
+/* Project */
+.project-img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+@media screen and (min-width: 768px) {
+    .project-img{
+        width: 60%;
+    }
+}
+@media screen and (min-width: 992px) {
+    .project-img{
+        width: 50%;
+    }
+}
+.detail-btn {
+    background-color: white;
+    border:solid 2px black;
+    border-radius: 0.3rem;
+    padding: 0.1rem 1.5rem;
+}
+.detail-btn-dark {
+    background-color: black;
+    border:solid 2px white;
+    color:white;
+    border-radius: 0.3rem;
+    padding: 0.1rem 1.5rem;
+}
+.small-text {
+    font-size: 0.8rem;
+}
+.project-item {
+    margin-bottom: 2rem;
+}
+/* Interesting Things Section */
+.item {
+    border-bottom: solid 1px lightgray;
+    margin: 1rem 0;
+}
+/* Contact Section */
+.contact-btn {
+    font-weight: 600;
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 0.6rem;
+    padding: 0.3rem 1rem;
+    margin-right: 0.5rem;
+}
+@media screen and (min-width: 576px) {
+    .contact-btn{
+        padding: 0.3rem 1.5rem;
+        margin-right: 1rem;
+    }
+}
+/* Dark Mode */
+
+/* Dark Mode Button */
+.darkMode-btn {
+    border: solid 2px white;
+    background-color: black;
+    color: white;
+    border-radius: 0.6rem;
+    height: 2.5rem;
+    width: 7rem;
+}
+.yellow {
+    color: #F7CD3C;
+}
+footer {
+    text-align: center;
+    color: lightgray;
+}
